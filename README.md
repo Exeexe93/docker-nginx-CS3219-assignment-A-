@@ -6,6 +6,8 @@ There are two web applications running in their own docker container and one con
 
 Nginx receives the incoming request from the user and directed to the relevant web applications: website1 or website2 through port 80. 
 
+Before you run the docker containers, do make sure that you have install Docker Desktop. ([Windows](https://docs.docker.com/docker-for-windows/install/), [Mac](https://docs.docker.com/docker-for-mac/))
+
 Instructions on how to run the docker containers:
 1)	Clone the code from the github repository.
 2)	Go to the website 1 folder from root directory by using (cd website1) in the command prompt.
